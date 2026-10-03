@@ -21,7 +21,7 @@ I'm not sure if this will be helpful to anyone else. Seasoned programmers will f
 {:.related-posts.faded}
 
 ## C
-* [Basics]{:.heading.flip-title} --- How to add different types of content.
+* [Basics]{:.heading.flip-title} --- C basics.
 
 
 [setup]:    setup.md

@@ -1,6 +1,6 @@
 # JC | Second Brain
 
-@jcnccsr
+@jcnccsr  
 Learning, building, and occasionally breaking things.
 
 Currently exploring **C**, programming fundamentals, and the craft of making things work.
