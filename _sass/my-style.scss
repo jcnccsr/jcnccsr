@@ -1,0 +1,58 @@
+:root {
+  --hue-mint: #3AB795;
+  --hue-cela: #A0E8AF;
+  --hue-teal: #86BAA1;
+  --hue-sand: #EDEAD0;
+  --hue-gold: #FFCF56;
+}
+
+.dl-table {
+  a {
+    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      text-underline-offset: .8rem;
+    }
+    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
+      padding-bottom: .45rem;
+    }
+  }
+
+  .btn, .gumroad-button  {
+    margin: 1rem 0;
+  }
+}
+footer {
+  margin-bottom: -5rem;
+  padding-bottom: -5rem;
+}
+
+* > code, .highlight {
+  font-size: .95rem;
+}
+
+.lead {
+  opacity: .6;
+}
+
+.note, .note-sm {
+  opacity: .6;
+  color: var(--hue-teal);
+}
+
+.recent-posts {
+  padding: 1rem;
+  background-color: color-mix(in srgb, var(--hue-sand) 20%);
+  border-radius: .25rem;
+}
+.recent-posts h3 {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+#cp {
+  font-size: 1.35rem;
+  display: inline-flex;
+  transform: rotate(180deg);
+}
+#year {
+  margin-left: -.25rem;
+}

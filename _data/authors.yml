@@ -1,0 +1,16 @@
+# The primary author of this site. Must match `author` in `_config.yml`.
+author1:
+  name:              Julius Cinco Cesar
+  email:             jcnccsr@gmail.com
+  about:             |
+    I'm a studio coordinator learning software development. I enjoy reading books, drinking coffee, and exploring new technologies.
+  picture:           
+    path:              /assets/img/me.jpg
+    srcset:
+      1x:              /assets/img/me.jpg
+      2x:              /assets/img/me@2x.jpg
+  # github and linkedin have built-in icons. TryHackMe does NOT — add it to `menu` if wanted.
+  social:
+    github:          jcnccsr
+    linkedin:        jcnccsr
+    email:           jcnccsr@gmail.com

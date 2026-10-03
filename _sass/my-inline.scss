@@ -1,0 +1,20 @@
+// You can add CSS rules here that will be inlined into each document.
+// .sidebar a {
+//   text-shadow: rgba(0, 0, 0, 0.25) 0.1rem 0.1rem 0.15rem;
+// }
+
+$custom-navbar-height: 3rem;
+
+.navbar > .content {
+  max-height: $custom-navbar-height;
+}
+
+.nav-btn-bar,
+.nav-btn {
+  height: $custom-navbar-height;
+}
+
+#_hits {
+  top: $custom-navbar-height;
+  height: calc(100vh - #{$custom-navbar-height});
+}

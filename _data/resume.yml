@@ -1,0 +1,103 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "Julius Cinco Cesar"
+  label: "Studio Coordinator"
+  picture: "/assets/img/me.jpg"
+  email: "jcnccsr@gmail.com"
+  phone: "+971 56 810 7319"
+  website: "https://jcnccsr.com"
+  summary: >
+    Studio coordinator interested in software, programming, and technology. Currently developing my programming skills through hands-on study, with a particular interest in C, computer systems, and automation. I enjoy understanding how things work from first principles and applying what I learn to practical problems.
+  location:
+    address: "Hamdan St, Al Khalidiyah"
+    postalCode: ""
+    city: "Abu Dhabi"
+    countryCode: "AE"
+    region: "Abu Dhabi"
+  profiles:
+    - network: "Twitter"
+      username: "jcnccsr"
+      url: ""
+    - network: "LinkedIn"
+      username: "jcnccsr"
+      url: ""
+work:
+  - company: "Open Circle Yoga Studio"
+    position: "Studio Coordinator"
+    website: "https://opencircleyoga.org"
+    startDate: "2026-10-01"
+    endDate: ""
+    summary: >
+      Coordinate the day-to-day operations of the studio, working with teachers, clients, and management to keep classes and events running smoothly. My responsibilities include preparing quotations and invoices, handling payroll, coordinating schedules and communications, and maintaining client information.
+
+      I also manage the studio's social media and website, creating and publishing images, reels, and videos, and keeping information about classes, workshops, and events up to date.
+
+#    highlights:
+#      - ""
+#      - ""
+#      - ""
+#volunteer:
+#  - organization: ""
+#    position: ""
+#    website: ""
+#    startDate: ""
+#    endDate: ""
+#    summary: ""
+#    highlights:
+#      - ""
+# education:
+#  - institution: "University of the People"
+#    area: "Computer Science"
+#    studyType: "Bachelor of Science"
+#    startDate: ""
+#    endDate: ""
+#    gpa: ""
+#    courses:
+#      - ""
+#      - ""
+# awards:
+#  - title: ""
+#    date: ""
+#    awarder: ""
+#    summary: "."
+# publications:
+#  - name: ""
+#    publisher: ""
+#    releaseDate: ""
+#    website: ""
+#    summary: ""
+skills:
+  - name: "Web Development"
+    level: "Intermediate"
+    keywords:
+      - "HTML"
+      - "CSS"
+      - "Javascript"
+  - name: "Graphic Design"
+    level: "Intermediate"
+    keywords:
+      - "Photoshop"
+      - "Illustrator"
+      - "After Effects"
+languages:
+  - language: "English"
+#    fluency: ""
+interests:
+  - name: "Farming"
+    keywords:
+      - "Sustainable Agriculture"
+      - "Coffee Cultivation"
+  - name: "Technology"
+    keywords:
+      - "Programming"
+      - "Computer Systems"
+  - name: "Reading"
+    keywords:
+      - "Science Fiction"
+      - "Philosophy"
+#references:
+#  - name: ""
+#    reference: >
+      

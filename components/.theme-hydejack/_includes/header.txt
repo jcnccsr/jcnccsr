@@ -1,0 +1,5 @@
+/*
+ * @jcnccsr
+ * Codes for days.
+ * All rights reversed. Happily musing since 2000.
+*/
