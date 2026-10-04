@@ -42,5 +42,6 @@ I'm always happy to talk about programming, computers, automation, farming, or w
 
 If you'd like to know more about me, have a look at the [about page]({{ '/about/' | relative_url }}) or [resume]({{ '/components/resume/' | relative_url }}). You can also find me on [LinkedIn](https://www.linkedin.com/in/jcnccsr).
 
+<-->
 
 [notes]:  {{ '/notes/' | relative_url }}

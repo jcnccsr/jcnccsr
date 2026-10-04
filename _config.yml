@@ -43,10 +43,10 @@ author:
   name:                Julius Cinco Cesar
   email:               jcnccsr@gmail.com
   picture:             
-    path:              /assets/img/me.jpg
+    path:              /assets/img/resume.jpg
     srcset:
-      1x:              /assets/img/me.jpg
-      2x:              /assets/img/me@2x.jpg
+      1x:              /assets/img/resume.jpg
+      2x:              /assets/img/resume@2x.jpg
   # # Used by `jekyll-seo-tag`:
   # twitter:           jcnccsr
 
@@ -60,6 +60,8 @@ menu:
     url:               /about/
   - title:             Resumé
     url:               /components/resume/
+  - title:             Projects
+    url:               /projects/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -97,7 +99,7 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar.jpg
+accent_image:          /assets/img/sidebar/spider.jpg
 accent_color:          '#86BAA1'
 
 # This is used for the `theme-color` meta tag,
