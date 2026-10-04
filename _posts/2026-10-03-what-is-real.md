@@ -1,6 +1,6 @@
 ---
 layout: post
-image: /assets/img/blog/c.jpg
+image: /assets/img/blog/what_real.jpg
 title: What Is Real ?
 description: Philosophical musings of the nature of reality.
 ---
