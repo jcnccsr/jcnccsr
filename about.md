@@ -22,6 +22,6 @@ For now, I'm learning. This site is where I keep some of the things I discover a
 
 There's also a [resume]({{ '/components/resume/' | relative_url }}) if you'd like the short version.
 
-[Email](mailto:jcnccsr@gmail.com)  
-[GitHub](https://github.com/jcnccsr)  
 [LinkedIn](https://www.linkedin.com/in/jcnccsr)  
+[GitHub](https://github.com/jcnccsr)  
+[Email](mailto:jcnccsr@gmail.com)  
