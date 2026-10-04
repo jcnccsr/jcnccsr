@@ -1,6 +1,11 @@
 ---
 layout: about
-image: /assets/img/me.jpg
+image:
+  path: /assets/img/pages/about.jpg
+  srcset:
+    1920w: /assets/img/pages/about.jpg
+    960w: /assets/img/pages/about@0.5x.jpg
+    480w: /assets/img/pages/about@0.25x.jpg
 description: >
   Julius Cinco Cesar — A lowly peasant trying to find life in codes and algorithm.
 hide_description: true

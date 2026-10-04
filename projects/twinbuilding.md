@@ -1,6 +1,11 @@
 ---
 layout: page
 title: Website & Document Generator
+image:
+    path: /assets/img/projects/twinbuilding.jpg
+    srcset:
+        1920w: /assets/img/projects/twinbuilding@0.5x.jpg
+        960w:  /assets/img/projects/twinbuilding@0.25x.jpg
 description: >
   This page showcases my work in website design, development, and deployment.
 hide_description: true
@@ -24,7 +29,7 @@ Quotation data is saved as JSON and used to generate the corresponding invoice a
 
 I also registered and configured the firm's domain, set up domain-based email accounts.
 
-## Hosting and deployment
+## Hosting and Deployment
 
 I hosted and deployed the website on a web server. This included configuring DNS and managing the server and deployments through SSH.
 

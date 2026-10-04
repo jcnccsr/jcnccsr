@@ -1,6 +1,11 @@
 ---
 layout: page
 title: Brand Identity & Creative Work
+image:
+    path: /assets/img/projects/fnua.jpg
+    srcset:
+        1920w: /assets/img/projects/fnua@0.5x.jpg
+        960w:  /assets/img/projects/fnua@0.25x.jpg
 description: >
   This page showcases my work in FNÚA Fashion.
 hide_description: true

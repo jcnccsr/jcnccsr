@@ -1,6 +1,11 @@
 ---
 layout: post
-image: /assets/img/blog/c.jpg
+image:
+  path: /assets/img/blogs/c.jpg
+  srcset:
+    1920w: /assets/img/blogs/c.jpg
+    960w: /assets/img/blogs/c@0.5x.jpg
+    480w: /assets/img/blogs/c@0.25x.jpg
 title: "C, It's The Journey"
 description: >
   Start a journey of learning software engineering.
