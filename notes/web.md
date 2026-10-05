@@ -120,9 +120,11 @@ textarea:not([rows]) {
 
 ~~~css
 :root {
+  --hue-noir: #292C2E;
   --hue-mint: #3AB795;
-  --hue-cela: #A0E8AF;
   --hue-teal: #86BAA1;
+  --hue-cela: #A0E8AF;
+  --hue-vert: #B1DDCA;
   --hue-sand: #EDEAD0;
   --hue-gold: #FFCF56;
 }
@@ -131,5 +133,6 @@ textarea:not([rows]) {
 ## JS
 ~~~js
 /*
+  console.log("Unable to fetch data...");
 */
 ~~~

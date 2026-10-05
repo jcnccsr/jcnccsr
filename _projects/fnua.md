@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Brand Identity & Creative Work
 image:
     path: /assets/img/projects/fnua.jpg
@@ -7,12 +7,18 @@ image:
         1920w: /assets/img/projects/fnua@0.5x.jpg
         960w:  /assets/img/projects/fnua@0.25x.jpg
 description: >
-  This page showcases my work in FNÚA Fashion.
-hide_description: true
-sitemap: false
+ A graphic design project covering FNÚA’s visual identity and marketing materials, including branding guidelines, packaging, in-store graphics, and social media content. 
+links:
+  - title:   Demo
+    url:     http://fnua.jcnccsr.com
+  - title:   Source
+    url:     https://github.com/jcnccsr/fnua
+featured:    true
 ---
 
-This page showcases my work in FNÚA Fashion as a graphic designer. During my time as a graphic designer at FNÚA Fashion, I worked on the visual identity of the brand and its application across both physical and digital materials.
+## FNÚA Fashion
+
+I worked as a graphic designer for FNÚA, working on the brand identity, packaging, in-store graphics, and digital content.
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}

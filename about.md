@@ -13,11 +13,11 @@ hide_description: true
 
 # About
 
-## About
+## A Little About Me
 
 I'm learning my way into software development, mostly because I like understanding how things work and then trying to make them do something useful.
 
-Outside of programming, I spend a fair amount of time musing about things that are probably better left alone—what is real, how we know what we know, what makes an argument sound, and whether our theories of truth actually tell us anything about the world. I enjoy philosophy, science, logic, and conversations about religion, particularly when people are enthusiastic enough about their beliefs to explain them rather than merely defend them. I've had some wonderfully interesting discussions with Christians, presuppositionalists, Muslims, and others, usually concerning their beliefs, their scriptures, and the assumptions underneath them.
+Outside of programming, I spend a fair amount of time musing about things that are probably better left alone: what is real, how we know what we know, what makes an argument sound, and whether our theories of truth actually tell us anything about the world. I enjoy philosophy, science, logic, and conversations about religion, particularly when people are enthusiastic enough about their beliefs to explain them rather than merely defend them. I've had some wonderfully interesting discussions with Christians, presuppositionalists, Muslims, and others, usually concerning their beliefs, their scriptures, and the assumptions underneath them.
 
 I'm also rather fond of science fiction. *The Hitchhiker's Guide to the Galaxy* has left its fingerprints on my sense of humor, while *The Naked God*, *The Moon Is a Harsh Mistress*, and the *Three-Body Problem* trilogy have given me plenty of things to think about long after finishing them.
 
