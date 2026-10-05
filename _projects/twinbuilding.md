@@ -1,23 +1,32 @@
 ---
-layout: page
+layout: project
 title: Website & Document Generator
+date:          8 Feb 2026
 image:
     path: /assets/img/projects/twinbuilding.jpg
     srcset:
         1920w: /assets/img/projects/twinbuilding@0.5x.jpg
         960w:  /assets/img/projects/twinbuilding@0.25x.jpg
 description: >
-  This page showcases my work in website design, development, and deployment.
-hide_description: true
-sitemap: false
+  A website I built for an engineering and construction firm, including the company website, domain and email setup, hosting, and a custom quotation generator that produces branded PDF quotations.
+links:
+  - title:   Demo
+    url:     http://twinbuilding.jcnccsr.com
+  - title:   Source
+    url:     https://github.com/jcnccsr/twinbuilding
+featured:    true
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
+## Twin Building Engineering Design & Construction
+
+I built and deployed a website for Twin Building Engineering Design & Construction to showcase the firm's work and services, with a custom quotation generator for creating branded PDF quotations.
+
 ## Website
 
-I built and deployed a website for Twin Building Engineering Design & Construction to showcase the firm's work and provide information about its services, location, and contact details.
+The website showcases the firm’s work and provide information about its services, location, and contact details.
 
 ## Quotations, Invoices, & Receipts
 
