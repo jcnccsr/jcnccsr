@@ -1,7 +1,7 @@
 # The primary author of this site. Must match `author` in `_config.yml`.
 author1:
   name:              Julius Cinco Cesar
-  email:             jcnccsr@gmail.com
+  email:             mail@jccesar.com
   about:             |
     I'm a studio coordinator. I enjoy reading books, drinking coffee, and exploring new technologies.
   picture:           
@@ -13,4 +13,4 @@ author1:
   social:
     github:          jcnccsr
     linkedin:        jcnccsr
-    email:           jcnccsr@gmail.com
+    email:           mail@jccesar.com
