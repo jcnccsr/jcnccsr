@@ -6,8 +6,7 @@ layout: list
 title: Computers
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: computers
-
+slug: ordinateur
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
   Collection of computer-related posts and notes.

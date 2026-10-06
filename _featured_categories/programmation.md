@@ -10,7 +10,7 @@ slug: programmation
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Notes and posts about programming.
+  Notes and posts about computer languages and programming.
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
