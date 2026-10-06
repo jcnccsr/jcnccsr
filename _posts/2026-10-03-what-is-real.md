@@ -3,10 +3,12 @@ layout: post
 image:
   path: /assets/img/blogs/what_real.jpg
   srcset:
-    1920w: /assets/img/blogs/what_real@0.5x.jpg
-    960w: /assets/img/blogs/what_real@0.25x.jpg
+    1920w: /assets/img/blogs/what_real.jpg
+    960w: /assets/img/blogs/what_real@0.5x.jpg
+    480w: /assets/img/blogs/what_real@0.25x.jpg
 title: What Is Real ?
 description: Am I dreaming, or am I in a dream ?
+
 ---
 
 What is real ? What is reality ? How do we know if what we perceived as reality is but a dream ? How do we know we're not in a simulation ? How do we even know what we know ?
