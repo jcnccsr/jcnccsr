@@ -26,7 +26,7 @@ digital_media:
     caption: Ranch art.
   - type: video
     src: /assets/videos/typing.mp4
-    caption: Message in aper tiles.
+    caption: Message in paper tiles.
   - type: video
     src: /assets/videos/cowgirl.mp4
     caption: A composite of things.
