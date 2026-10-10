@@ -1,0 +1,36 @@
+{% comment %}
+  Render a masonry gallery from an array of media objects.
+  Each object accepts type ("image" or "video"), src, alt, caption, and poster.
+  Usage: {% include media-gallery.html items=page.media_gallery %}
+{% endcomment %}
+{% assign gallery_items = include.items %}
+{% if gallery_items and gallery_items.size > 0 %}
+<div class="media-gallery">
+  {% for media in gallery_items %}
+  <figure class="media-gallery__item">
+    {% if media.type == "video" %}
+    <video
+      class="media-gallery__media"
+      controls
+      playsinline
+      preload="metadata"
+      {% if media.poster %}poster="{{ media.poster | relative_url | escape }}"{% endif %}
+      {% if media.caption %}aria-label="{{ media.caption | escape }}"{% endif %}>
+      <source src="{{ media.src | relative_url | escape }}" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+    {% elsif media.type == "image" %}
+    <img
+      class="media-gallery__media"
+      src="{{ media.src | relative_url | escape }}"
+      alt="{{ media.alt | escape }}"
+      loading="lazy"
+      decoding="async">
+    {% endif %}
+    {% if media.caption %}
+    <figcaption class="media-gallery__caption">{{ media.caption | escape }}</figcaption>
+    {% endif %}
+  </figure>
+  {% endfor %}
+</div>
+{% endif %}
