@@ -77,7 +77,7 @@ Designed and developed the landing page for [fnuafashion.com].
 
 Created the FNÚA Fashion logo and developed the brand guidelines to establish a consistent visual identity across the brand's materials.
 
-{% include media-gallery.html items=page.brand_identity_media %}
+{% include media-gallery.html items=page.brand_identity_media class="media-gallery--full" %}
 
 Designed FNÚA's brand guidelines.
 {:.figcaption}
