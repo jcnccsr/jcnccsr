@@ -22,7 +22,7 @@ An element with `display: flex` is a **flex container**, and its direct children
 }
 ```
 
-I need to remember that flex items are arranged horizontally in a row by default.
+Flex items are arranged horizontally in a row by default.
 
 I set some Flexbox properties on the container and others on its items. An element with its own children can be both a flex item and a flex container.
 

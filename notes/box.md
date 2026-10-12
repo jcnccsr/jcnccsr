@@ -34,7 +34,7 @@ I picture every HTML element as a rectangular box. Four layers affect its layout
 
 **The default is `content-box`**
 
-I need to remember that declared `width` and `height` apply only to the content. Padding and borders make the final dimensions larger.
+`width` and `height` apply only to the content. Padding and borders make the final dimensions larger.
 
 Total width = content + padding + border
 

@@ -27,6 +27,7 @@ These are the notes I keep for myself while learning software development. I wri
 
 ## C
 * [Basics]{:.heading.flip-title} --- C basics.
+* [Dynamic Memory][dynamic-memory]{:.heading.flip-title} --- Dynamically allocating memory in C.
 
 
 [setup]:    setup.md
@@ -37,3 +38,4 @@ These are the notes I keep for myself while learning software development. I wri
 [box]:      box.md
 [flexbox]:  flexbox.md
 [basics]:   basics.md
+[dynamic-memory]: dynamic-memory.md
