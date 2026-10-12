@@ -2,7 +2,7 @@
 layout: page
 title: Intro to CSS
 description: >
-  This chapter covers the basics of CSS.
+  Notes I keep for myself while learning CSS.
 hide_description: true
 sitemap: false
 ---
@@ -10,13 +10,13 @@ sitemap: false
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-## Introduction to CSS
+## What I Have Learned About CSS
 
-**CSS (Cascading Style Sheets)** controls the presentation of HTML elements, including colors, typography, sizing, and layout.
+I use **CSS (Cascading Style Sheets)** to control how HTML elements look and are laid out, including their colors, typography, and sizes.
 
 ### 1. Adding CSS to HTML
 
-Keeps styling separate from HTML and allows multiple pages to share the same stylesheet.
+I can keep styling separate from HTML and share one stylesheet across multiple pages:
 
 ```html
 <!-- index.html -->
@@ -32,13 +32,13 @@ p {
 }
 ```
 
-Other methods:
+I have also seen these methods:
 - **Internal CSS:** CSS inside `<style>` tags in the HTML `<head>`.
-- **Inline CSS:** CSS inside an element's `style` attribute. Generally avoid it because it creates repetition and makes maintenance harder.
+- **Inline CSS:** CSS inside an element's `style` attribute. I should avoid relying on it because it can create repetition and make maintenance harder.
 
 ### 2. CSS Syntax
 
-A CSS rule consists of a selector and one or more declarations.
+I write a CSS rule with a selector and one or more declarations.
 
 ```css
 selector {
@@ -46,12 +46,12 @@ selector {
 }
 ```
 
-- **Selector:** identifies which HTML elements to style.
-- **Property:** specifies what to change.
-- **Value:** specifies how to change it.
-- Each declaration ends with a semicolon; declarations are enclosed in curly braces.
+- **Selector:** identifies the HTML elements I want to style.
+- **Property:** tells CSS what I want to change.
+- **Value:** tells CSS how I want to change it.
+- I end each declaration with a semicolon and enclose declarations in curly braces.
 
-### 3. CSS Selectors
+### 3. CSS Selectors I Use
 
 | Selector | Example | Selects |
 |---|---|---|
@@ -63,15 +63,15 @@ selector {
 | Chaining | `.notice.urgent` | Elements with both classes |
 | Descendant | `.card p` | `<p>` elements anywhere inside `.card` |
 
-#### Class and ID rules
+#### Class and ID reminders
 
-- Classes can be reused across multiple elements; an element can have multiple classes.
-- Separate multiple classes with spaces in HTML: `class="notice urgent"`.
-- Use hyphens for multiword class names: `.alert-text`.
-- IDs should be unique within a page.
+- I can reuse classes across elements, and an element can have more than one class.
+- I separate multiple classes with spaces in HTML: `class="notice urgent"`.
+- I use hyphens in multiword class names, such as `.alert-text`.
+- I should keep IDs unique within a page.
 - Class and ID selectors are case-sensitive.
-- Class and ID names cannot begin with a digit in these basic selector forms.
-- Prefer classes for reusable styling; use IDs when a unique identifier is appropriate.
+- In these basic selector forms, class and ID names cannot begin with a digit.
+- I usually use classes for reusable styling and IDs for unique identifiers.
 
 #### Grouping vs. chaining vs. descendants
 
@@ -80,23 +80,23 @@ h1, p {
   color: navy;
 }
 ```
-**Grouping:** applies the same rule to different selectors.
+**Grouping:** I can apply the same rule to different selectors.
 
 ```css
 .notice.urgent {
   color: red;
 }
 ```
-**Chaining:** selects one element that matches both classes. No space between selectors.
+**Chaining:** I select one element that matches both classes. There is no space between selectors.
 
 ```css
 .card p {
   color: gray;
 }
 ```
-**Descendant combinator:** selects paragraphs nested anywhere inside an element with the `card` class. A space indicates the ancestor–descendant relationship.
+**Descendant combinator:** I select paragraphs nested anywhere inside an element with the `card` class. The space indicates the ancestor-descendant relationship.
 
-### 4. Common CSS Properties
+### 4. CSS Properties I Keep Coming Back To
 
 #### Colors
 
@@ -107,9 +107,9 @@ p {
 }
 ```
 
-- `color`: text color.
-- `background-color`: background color.
-- Color values can use names, HEX, RGB, or HSL.
+- `color`: the text color.
+- `background-color`: the background color.
+- I can write color values as names, HEX, RGB, or HSL.
 
 #### Typography
 
@@ -122,8 +122,8 @@ body {
 }
 ```
 
-- `font-family`: font and fallback fonts, listed in order of preference.
-- `font-size`: text size.
+- `font-family`: the font and fallback fonts I list in order of preference.
+- `font-size`: the text size.
 - `font-weight`: text thickness; `400` is normal and `700` is typically bold.
 - `text-align`: horizontal alignment, such as `left`, `center`, or `right`.
 
@@ -136,15 +136,15 @@ img {
 }
 ```
 
-Setting one dimension and using `auto` for the other preserves the image's aspect ratio.
+When I set one dimension and use `auto` for the other, the image keeps its aspect ratio.
 
-Also specify `width` and `height` attributes in HTML when practical. These reserve space before an image loads and help prevent layout shifts.
+When practical, I should also add `width` and `height` attributes in HTML. They reserve space before an image loads and help prevent layout shifts.
 
 ### 5. Semantic HTML
 
-Use elements according to their meaning, such as `<h1>` for a main heading and `<p>` for a paragraph. Use `<div>` when a generic container is appropriate.
+I should choose elements for their meaning, such as `<h1>` for a main heading and `<p>` for a paragraph. I can use `<div>` when a generic container is appropriate.
 
-HTML provides the structure and meaning; CSS controls presentation.
+I think of HTML as providing structure and meaning, and CSS as controlling presentation.
 
 Source: [The Odin Project — Introduction to CSS](https://www.theodinproject.com/lessons/foundations-intro-to-css)
 

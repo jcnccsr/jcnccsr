@@ -2,7 +2,7 @@
 layout: page
 title: C Basics
 description: >
-  This chapter covers the basics of C programming language.
+    Notes I keep for myself while learning the basics of C.
 hide_description: true
 sitemap: false
 ---
@@ -10,11 +10,11 @@ sitemap: false
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
-## What Is C?
+## What I Know About C So Far
 
-C is a compiled, general-purpose programming language. A C program is written in source code, compiled into machine code, and then executed.
+C is a compiled, general-purpose programming language. I write a program as source code, compile it into machine code, and then run it.
 
-A basic C program:
+Here is a small program I can use as a starting point:
 
 ```c
 #include <stdio.h>
@@ -26,41 +26,40 @@ int main(void)
 }
 ```
 
-- `#include <stdio.h>` includes declarations for standard input/output functions such as `printf()`.
-- `int main(void)` defines the program's entry point.
-- `{}` enclose a block of code.
+- I use `#include <stdio.h>` to include declarations for standard input/output functions such as `printf()`.
+- `int main(void)` is the program's entry point.
+- I use `{}` to enclose a block of code.
 - `printf()` prints formatted output.
 - `\n` represents a newline.
-- `return 0;` indicates successful program termination.
-- `;` terminates a statement.
+- `return 0;` indicates that the program finished successfully.
+- I end a statement with `;`.
 
-### Compiling and Running
+### How I Compile and Run It
 
-Using GCC:
+With GCC, I can compile and run it like this:
 
 ```bash
 gcc main.c -o main
 ./main
 ```
 
-To enable useful compiler warnings:
+I can ask GCC to show me useful warnings with these options:
 
 ```bash
 gcc -Wall -Wextra -Wpedantic main.c -o main
 ```
 
-## Variables and Data Types
+## Variables and Data Types I Need to Remember
 
-A variable stores a value of a particular type.
+I use a variable to store a value of a particular type.
 
 ```c
-int age = 25;
+int age = 42;
 float temperature = 36.5f;
 double pi = 3.1415926535;
 char letter = 'A';
 ```
-
-Common types:
+These are some common types I will run into:
 
 | Type | Purpose |
 |---|---|
@@ -70,15 +69,15 @@ Common types:
 | `double` | Floating-point number with greater precision than `float` |
 | `void` | No value or unspecified type, depending on context |
 
-The exact sizes and ranges of many types depend on the implementation.
+I should not assume every type has exactly the same size and range on every implementation.
 
-Constants can be declared with `const`:
+When I do not want to change a value, I can declare it with `const`:
 
 ```c
 const int DAYS_IN_WEEK = 7;
 ```
 
-## Operators
+## Operators I Have Seen
 
 ### Arithmetic
 
@@ -93,7 +92,7 @@ a / b;  // Division
 a % b;  // Remainder
 ```
 
-Integer division discards the fractional part: `10 / 3` produces `3`.
+I need to remember that integer division discards the fractional part: `10 / 3` produces `3`.
 
 ### Comparison
 
@@ -116,14 +115,14 @@ a || b;  // Logical OR
 !a;      // Logical NOT
 ```
 
-In C, `0` represents false, and nonzero values represent true.
+In C, I can treat `0` as false and nonzero values as true.
 
 ## Conditional Statements
 
-Use `if`, `else if`, and `else` to choose which code executes.
+I use `if`, `else if`, and `else` to choose which code executes.
 
 ```c
-int age = 20;
+int age = 42;
 
 if (age >= 18)
 {
@@ -135,7 +134,7 @@ else
 }
 ```
 
-The `switch` statement selects a branch based on an integer or compatible expression.
+I can use `switch` to select a branch based on an integer or compatible expression.
 
 ```c
 switch (choice)
@@ -151,15 +150,15 @@ switch (choice)
 }
 ```
 
-`break` prevents execution from falling through into the next case.
+I use `break` when I want to stop a case from falling through into the next one.
 
 ## Loops
 
-Loops repeat code.
+I use loops when I want to repeat code.
 
 ### `for`
 
-Useful when the iteration structure is known.
+I find `for` useful when I know the iteration structure.
 
 ```c
 for (int i = 0; i < 5; i++)
@@ -170,7 +169,7 @@ for (int i = 0; i < 5; i++)
 
 ### `while`
 
-Repeats while the condition is true.
+`while` repeats as long as its condition is true.
 
 ```c
 int i = 0;
@@ -184,7 +183,7 @@ while (i < 5)
 
 ### `do-while`
 
-Executes the body at least once.
+`do-while` runs its body at least once.
 
 ```c
 int i = 0;
@@ -197,11 +196,11 @@ do
 while (i < 5);
 ```
 
-`break` exits a loop. `continue` skips to the next iteration.
+I can use `break` to exit a loop and `continue` to skip to its next iteration.
 
 ## Functions
 
-Functions organize code into reusable units.
+I use functions to organize code into reusable units.
 
 ```c
 int add(int a, int b)
@@ -210,13 +209,13 @@ int add(int a, int b)
 }
 ```
 
-Calling the function:
+I can call the function like this:
 
 ```c
 int result = add(3, 4);
 ```
 
-A function declaration, also called a prototype, tells the compiler about a function before its definition.
+A function declaration, also called a prototype, tells the compiler about a function before I define it.
 
 ```c
 int add(int a, int b);
@@ -233,32 +232,32 @@ int add(int a, int b)
 }
 ```
 
-C passes function arguments by value. A function receives copies of the argument values. To modify a variable belonging to the caller, a function can receive a pointer to it.
+I need to remember that C passes function arguments by value, so a function receives copies of the argument values. If I want a function to modify a variable owned by its caller, I can pass it a pointer to that variable.
 
 ## Arrays
 
-An array stores multiple elements of the same type in contiguous memory.
+I use an array to store multiple values of the same type in contiguous memory.
 
 ```c
 int numbers[] = {10, 20, 30, 40};
 ```
 
-Access elements using zero-based indexing:
+I access array elements with zero-based indexing:
 
 ```c
 printf("%d\n", numbers[0]);  // 10
 printf("%d\n", numbers[2]);  // 30
 ```
 
-The number of elements can be calculated while the array itself is in scope:
+While the array itself is in scope, I can calculate its number of elements like this:
 
 ```c
 int length = sizeof(numbers) / sizeof(numbers[0]);
 ```
 
-Arrays do not automatically track their length. Accessing an element outside the array's bounds causes undefined behavior.
+I need to keep track of an array's length myself. Accessing an element outside its bounds causes undefined behavior.
 
-When an array is passed to a function, the parameter is adjusted to a pointer type. The function does not automatically receive the array's length.
+When I pass an array to a function, its parameter is adjusted to a pointer type. The function does not automatically receive the array's length, so I need to pass that separately.
 
 ```c
 void print_numbers(int *numbers, int length)
@@ -270,20 +269,20 @@ void print_numbers(int *numbers, int length)
 }
 ```
 
-Pass the length separately.
+I pass the length separately.
 
 ## Pointers
 
-A pointer stores a memory address.
+I think of a pointer as a value that stores a memory address.
 
 ```c
 int x = 42;
 int *p = &x;
 ```
 
-- `&x` obtains the address of `x`.
+- `&x` gives me the address of `x`.
 - `int *p` declares a pointer to an integer.
-- `*p` dereferences the pointer, accessing the integer at that address.
+- `*p` dereferences the pointer, letting me access the integer at that address.
 
 ```c
 printf("%d\n", *p);  // 42
@@ -293,7 +292,7 @@ printf("%d\n", *p);  // 42
 printf("%d\n", x);   // 100
 ```
 
-Because `p` points to `x`, changing `*p` changes `x`.
+Because `p` points to `x`, changing `*p` changes `x` too.
 
 ### Pointer Arithmetic
 
@@ -311,11 +310,11 @@ p++;
 printf("%d\n", *p);       // 20
 ```
 
-Pointer arithmetic advances by elements, not individual bytes. Adding `1` to an `int *` advances by `sizeof(int)` bytes.
+I need to remember that pointer arithmetic advances by elements, not individual bytes. Adding `1` to an `int *` advances by `sizeof(int)` bytes.
 
 For an array, `numbers[i]` is equivalent to `*(numbers + i)`.
 
-A pointer can point to an existing object, but dereferencing a null, dangling, or otherwise invalid pointer causes undefined behavior.
+I should only dereference a pointer when it points to a valid object. Dereferencing a null, dangling, or otherwise invalid pointer causes undefined behavior.
 
 ### Modifying a Variable Through a Pointer
 
@@ -335,11 +334,11 @@ int main(void)
 }
 ```
 
-The pointer gives the function access to the original variable.
+Here, the pointer gives the function access to the original variable.
 
 ## Strings
 
-C strings are arrays of characters terminated by the null character `'\0'`.
+I need to remember that C strings are arrays of characters terminated by the null character `'\0'`.
 
 ```c
 char word[] = "Hello";
@@ -349,7 +348,7 @@ This array contains six characters in memory:
 
 `'H'`, `'e'`, `'l'`, `'l'`, `'o'`, `'\0'`.
 
-The null terminator tells string-handling functions where the string ends.
+The null terminator tells string-handling functions where my string ends.
 
 ```c
 #include <stdio.h>
@@ -366,15 +365,15 @@ int main(void)
 }
 ```
 
-`strlen()` counts characters before the null terminator, not the terminator itself.
+I use `strlen()` to count the characters before the null terminator; it does not count the terminator itself.
 
-When using string functions, ensure the destination array has enough space. Writing beyond its bounds can cause undefined behavior.
+When I use string functions, I need to make sure the destination array has enough space. Writing beyond its bounds can cause undefined behavior.
 
 ## Scope and Lifetime
 
-**Scope** determines where an identifier can be accessed in source code.
+I use **scope** to think about where an identifier can be accessed in source code.
 
-**Lifetime** determines how long an object exists during program execution.
+An object's **lifetime** is how long it exists while my program runs.
 
 ```c
 void example(void)
@@ -383,9 +382,9 @@ void example(void)
 }
 ```
 
-Here, `x` is a local variable. Its scope is limited to the block, and its lifetime ends when execution leaves that block.
+Here, `x` is local to the block, and its lifetime ends when execution leaves that block.
 
-Returning a pointer to an ordinary local variable is unsafe because the variable's lifetime has ended.
+I must not return a pointer to an ordinary local variable: by the time the caller uses it, that variable's lifetime has ended.
 
 ```c
 int *bad_example(void)
@@ -395,13 +394,13 @@ int *bad_example(void)
 }
 ```
 
-Do not dereference the returned pointer.
+I should not dereference the returned pointer.
 
-An array declared locally also ceases to exist when its block ends. Copying its elements into an array owned by the caller is different from returning a pointer to the local array.
+A local array also ceases to exist when its block ends. Copying its elements into an array owned by the caller is different from returning a pointer to that local array.
 
 ## Dynamic Memory
 
-Dynamic memory is allocated at runtime using functions from `<stdlib.h>`.
+I can allocate dynamic memory at runtime using functions from `<stdlib.h>`.
 
 ```c
 #include <stdlib.h>
@@ -419,18 +418,18 @@ else
 }
 ```
 
-- `malloc()` allocates memory without initializing its contents.
-- `calloc()` allocates memory and initializes its bytes to zero.
-- `realloc()` changes the size of an allocation.
-- `free()` releases allocated memory.
+- I use `malloc()` to allocate memory without initializing its contents.
+- I use `calloc()` to allocate memory and initialize its bytes to zero.
+- I use `realloc()` to change the size of an allocation.
+- I use `free()` to release allocated memory.
 
-Memory allocated dynamically remains allocated until it is freed or the program terminates. Every allocation that is no longer needed should be released appropriately.
+Memory I allocate dynamically remains allocated until I free it or the program terminates. I need to release allocations when I no longer need them.
 
-Do not access memory after freeing it, free the same allocation twice, or use a pointer after its object has ceased to exist.
+I must not access memory after freeing it, free the same allocation twice, or use a pointer after its object has ceased to exist.
 
 ## Structures
 
-A `struct` groups related values, potentially of different types.
+I use a `struct` to group related values, including values of different types.
 
 ```c
 struct Person
@@ -445,16 +444,16 @@ printf("%s\n", person.name);
 printf("%d\n", person.age);
 ```
 
-Use `.` to access a member through a structure object and `->` to access a member through a pointer to a structure.
+I use `.` to access a member through a structure object and `->` to access one through a pointer to a structure.
 
 ```c
 struct Person *p = &person;
 printf("%d\n", p->age);
 ```
 
-## 13. Header Files and Source Files
+## Header Files and Source Files
 
-Header files (`.h`) commonly contain declarations, type definitions, and macros. Source files (`.c`) contain function definitions and other implementation details.
+I usually put declarations, type definitions, and macros in header files (`.h`). Source files (`.c`) hold function definitions and other implementation details.
 
 For example, `math_helpers.h`:
 
@@ -473,13 +472,13 @@ int add(int a, int b)
 }
 ```
 
-Compile multiple source files together:
+I can compile multiple source files together:
 
 ```bash
 gcc -Wall -Wextra -Wpedantic main.c math_helpers.c -o program
 ```
 
-Use header guards to prevent a header from being included multiple times in the same translation unit.
+I use header guards to prevent a header from being included multiple times in the same translation unit.
 
 ```c
 #ifndef MATH_HELPERS_H
@@ -490,28 +489,28 @@ int add(int a, int b);
 #endif
 ```
 
-## Common Mistakes
+## Mistakes I Want to Watch For
 
-- Using `=` instead of `==` in a comparison.
-- Forgetting a semicolon after a statement.
-- Accessing an array outside its bounds.
-- Dereferencing an invalid or uninitialized pointer.
-- Using a local variable after its lifetime has ended.
-- Forgetting the null terminator in a string.
-- Writing beyond an array's capacity.
-- Forgetting to free dynamically allocated memory.
-- Assuming a function can determine an array's length from a pointer alone.
-- Ignoring compiler warnings.
+- I might use `=` instead of `==` in a comparison.
+- I might forget a semicolon after a statement.
+- I might access an array outside its bounds.
+- I might dereference an invalid or uninitialized pointer.
+- I might use a local variable after its lifetime has ended.
+- I might forget the null terminator in a string.
+- I might write beyond an array's capacity.
+- I might forget to free dynamically allocated memory.
+- I might assume a function can determine an array's length from a pointer alone.
+- I might ignore compiler warnings instead of learning from them.
 
-Compile with warnings enabled and treat warnings as opportunities to understand your code better.
+I want to compile with warnings enabled and use them as chances to understand my code better.
 
-## Core Principles to Remember
+## Reminders to Myself
 
-1. **Types matter.** They determine how values are interpreted and what operations are valid.
-2. **Arrays have fixed bounds.** C does not automatically protect you from out-of-bounds access.
-3. **Pointers hold addresses.** Dereferencing accesses the object at that address.
-4. **Functions receive arguments by value.** Pointers allow functions to access and modify objects owned elsewhere.
-5. **Objects have lifetimes.** A valid address must refer to an object that still exists.
-6. **Memory management matters.** Know who owns allocated memory and when it must be released.
-7. **The compiler is your ally.** Use warnings, read error messages, and test small pieces of code.
-8. **Understand before optimizing.** Correct, readable code is a better starting point than clever tricks.
+1. I need to pay attention to **types** because they determine how values are interpreted and which operations are valid.
+2. I need to keep track of **array bounds**; C does not automatically protect me from out-of-bounds access.
+3. **Pointers hold addresses.** Dereferencing one lets me access the object at that address.
+4. **Functions receive arguments by value.** Pointers let a function access and modify objects owned elsewhere.
+5. **Objects have lifetimes.** An address is only useful while the object it refers to still exists.
+6. I need to know who owns allocated memory and when I should release it.
+7. I can use compiler warnings, error messages, and small tests to help me understand what is happening.
+8. I should aim for correct, readable code before trying to optimize it.

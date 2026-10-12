@@ -2,18 +2,20 @@
 layout: page
 title: Web Development Basics
 description: >
-  Web basics.
+  Notes I keep for myself about web development basics.
 hide_description: true
 sitemap: false
 ---
 
-This chapter covers the basics of web development.
+I keep a few web development examples and reminders here as I learn.
 
 0. this unordered seed list will be replaced by toc as unordered list
 {:toc}
 
 
 ## HTML
+
+This is the basic HTML page structure I want to remember:
 
 ~~~html
 <!-- file: "index.html" -->
@@ -38,6 +40,8 @@ This chapter covers the basics of web development.
 ## CSS
 
 ### CSS Reset
+
+This is a reset I have been keeping around as a starting point:
 
 ~~~css
 
@@ -118,6 +122,8 @@ textarea:not([rows]) {
 
 ### Color Palette
 
+These are colors I have used in a palette:
+
 ~~~css
 :root {
   --hue-noir: #292C2E;
@@ -131,6 +137,8 @@ textarea:not([rows]) {
 ~~~
 
 ## JS
+
+This is a small JavaScript reminder:
 ~~~js
 /*
   console.log("Unable to fetch data...");

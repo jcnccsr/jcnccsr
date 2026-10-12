@@ -1,8 +1,8 @@
 ---
 layout: page
-title: C Basics
+title: CSS Flexbox
 description: >
-  This chapter covers the flexbox, growing and shrinking, axes, and alignment.
+  Notes I keep about Flexbox, sizing, axes, and alignment.
 hide_description: true
 sitemap: false
 ---
@@ -12,9 +12,9 @@ sitemap: false
 
 ## Flexbox
 
-**Flexbox** is a CSS layout model for arranging elements in a single dimension: a row or a column. Items can grow or shrink to fit available space.
+I use **Flexbox** to arrange elements in one dimension: a row or a column. Items can grow or shrink to fit the available space.
 
-A **flex container** is an element with `display: flex`. Its direct children become **flex items**.
+An element with `display: flex` is a **flex container**, and its direct children are **flex items**.
 
 ```css
 .container {
@@ -22,13 +22,13 @@ A **flex container** is an element with `display: flex`. Its direct children bec
 }
 ```
 
-By default, flex items are arranged horizontally in a row.
+I need to remember that flex items are arranged horizontally in a row by default.
 
-Flexbox properties belong either to the container or to its items. An element can be both a flex item and a flex container if it has its own children.
+I set some Flexbox properties on the container and others on its items. An element with its own children can be both a flex item and a flex container.
 
 ## Growing and Shrinking
 
-The `flex` shorthand controls how a flex item grows, shrinks, and establishes its initial size.
+I use the `flex` shorthand to control how an item grows, shrinks, and gets its initial size.
 
 ```css
 .item {
@@ -38,9 +38,9 @@ The `flex` shorthand controls how a flex item grows, shrinks, and establishes it
 
 This commonly distributes available space equally among flex items.
 
-The shorthand represents three properties:
+The shorthand represents three properties I want to keep straight:
 
-- `flex-grow`: Determines how available positive space is distributed. Default: `0`.
+- `flex-grow`: Determines how I distribute extra space. Default: `0`.
 - `flex-shrink`: Determines how items shrink when space is insufficient. Default: `1`.
 - `flex-basis`: Sets the initial main-axis size before growing or shrinking. Default: `auto`.
 
@@ -53,7 +53,7 @@ The shorthand represents three properties:
 
 ### `flex-basis`
 
-Defines an item's initial size along the main axis. With `flex-basis: auto`, the browser considers the item's main-size property, such as `width` in a row or `height` in a column.
+`flex-basis` defines an item's initial size along the main axis. With `flex-basis: auto`, the browser considers the item's main-size property, such as `width` in a row or `height` in a column.
 
 ### `flex-grow`
 
@@ -64,11 +64,11 @@ When positive free space exists, items grow according to their grow factors.
 .item-b { flex-grow: 2; }
 ```
 
-Item B receives twice as much of the *distributable free space* as item A, assuming both can grow and other constraints do not interfere.
+Here, item B gets twice as much of the *distributable free space* as item A, assuming both can grow and other constraints do not interfere.
 
 ### `flex-shrink`
 
-When items collectively exceed the available space, they shrink according to their shrink factors, adjusted by their flex base sizes.
+When my items collectively exceed the available space, they shrink according to their shrink factors, adjusted by their flex base sizes.
 
 ```css
 .item {
@@ -76,7 +76,7 @@ When items collectively exceed the available space, they shrink according to the
 }
 ```
 
-Setting `flex-shrink: 0` prevents an item from shrinking through this mechanism, potentially causing overflow.
+If I set `flex-shrink: 0`, the item will not shrink through this mechanism, which can cause overflow.
 
 ### Common shorthand values
 
@@ -87,16 +87,16 @@ Setting `flex-shrink: 0` prevents an item from shrinking through this mechanism,
 | `flex: initial` | Equivalent to `0 1 auto` |
 | `flex: none` | Equivalent to `0 0 auto` |
 
-For predictable layouts, remember that `flex: 1` generally distributes space from a zero basis, while `flex: auto` considers the item's existing size.
+I want to remember that `flex: 1` generally distributes space from a zero basis, while `flex: auto` considers the item's existing size.
 
 ## Flexbox Axes
 
-Flexbox has two axes:
+I need to keep the two Flexbox axes in mind:
 
 - **Main axis:** The direction in which flex items are laid out.
-- **Cross axis:** Perpendicular to the main axis.
+- **Cross axis:** The direction perpendicular to the main axis.
 
-The `flex-direction` property determines the main axis.
+I use `flex-direction` to set the main axis.
 
 ```css
 .container {
@@ -114,11 +114,11 @@ The `flex-direction` property determines the main axis.
 
 `row` is the default.
 
-The axes are not permanently horizontal and vertical. When you change `flex-direction`, the main and cross axes change accordingly.
+I should not assume the axes are always horizontal and vertical. When I change `flex-direction`, the main and cross axes change too.
 
 ## Flexbox Alignment
 
-Two essential properties control alignment inside a flex container:
+These two properties help me control alignment inside a flex container:
 
 - `justify-content`: Aligns and distributes items along the **main axis**.
 - `align-items`: Aligns items along the **cross axis**.
@@ -131,7 +131,7 @@ Two essential properties control alignment inside a flex container:
 }
 ```
 
-This centers items along both axes when the container has sufficient space.
+This centers the items along both axes when the container has enough space.
 
 ### `justify-content`
 
@@ -146,7 +146,7 @@ Common values:
 | `space-around` | Equal space around each item |
 | `space-evenly` | Equal gaps between items and at both ends |
 
-These properties distribute available space; they do not necessarily change item sizes.
+I use these values to distribute available space; they do not necessarily change item sizes.
 
 ### `align-items`
 
@@ -160,11 +160,11 @@ Common values:
 | `center` | Centers items on the cross axis |
 | `baseline` | Aligns text baselines |
 
-`stretch` is the default. Explicit cross-axis sizing or other constraints can prevent stretching.
+`stretch` is the default. Explicit cross-axis sizing or other constraints can prevent it from stretching.
 
 ### `gap`
 
-Adds space between flex items without adding space around the container's outer edges.
+I use `gap` to add space between flex items without adding space around the container's outer edges.
 
 ```css
 .container {
@@ -174,9 +174,9 @@ Adds space between flex items without adding space around the container's outer 
 }
 ```
 
-Use `gap` for consistent spacing between items instead of adding margins to every item.
+I can use `gap` for consistent spacing between items instead of adding margins to each one.
 
-### Centering an element
+### Centering items
 
 ```css
 .container {
@@ -186,7 +186,7 @@ Use `gap` for consistent spacing between items instead of adding margins to ever
 }
 ```
 
-This centers the container's flex items along both axes, provided the container has sufficient dimensions. For a single item, `margin: auto` can also be useful in Flexbox.
+This centers the flex items along both axes if the container is large enough. For one item, I can also use `margin: auto` in Flexbox.
 
 ## Practical Example
 
@@ -216,6 +216,6 @@ This centers the container's flex items along both axes, provided the container 
 }
 ```
 
-The container arranges its children in a row, aligns them vertically in the center, and adds spacing between them. Each item can grow to use available space.
+Here, the container arranges its children in a row, centers them vertically, and adds space between them. Each item can grow to use the available space.
 
-**Core principle:** First identify the main axis and cross axis. Then decide whether you need to control item sizes (`flex`), alignment (`justify-content`, `align-items`), or spacing (`gap`).
+**Reminder to myself:** First I identify the main and cross axes. Then I decide whether I need to control item sizes (`flex`), alignment (`justify-content`, `align-items`), or spacing (`gap`).

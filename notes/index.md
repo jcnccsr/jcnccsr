@@ -2,12 +2,12 @@
 layout: page
 title: Notes
 description: >
-  Here is where I lump all the notes I made while learning software development.
+  Notes I keep for myself while learning software development.
 hide_description: true
 sitemap: false
 ---
 
-I'm not sure if this will be helpful to anyone else. Seasoned programmers will find this place boring and noob, while noobs like me will find this place a pile of garbage. But this is my blog, a record of my journey.
+These are the notes I keep for myself while learning software development. I write things down so I can come back to them when I forget, or when I need a refresher. They reflect what I have learned so far, not expertise.
 {:.note}
 
 
@@ -16,7 +16,7 @@ I'm not sure if this will be helpful to anyone else. Seasoned programmers will f
 * [Git]{:.heading.flip-title} --- Setting up `git` and GitHub.
 
 ## Guides
-* [Resetting Git][resetting_git]{:.heading.flip-title} --- Resetting a git repository.
+* [Resetting Git][resetting-git]{:.heading.flip-title} --- Resetting a git repository.
 {:.related-posts.faded}
 
 ## Webdev
@@ -31,7 +31,7 @@ I'm not sure if this will be helpful to anyone else. Seasoned programmers will f
 
 [setup]:    setup.md
 [git]:      git.md
-[resetting_git]: resetting_git.md
+[resetting-git]: resetting-git.md
 [web]:      web.md
 [css]:      css.md
 [box]:      box.md
