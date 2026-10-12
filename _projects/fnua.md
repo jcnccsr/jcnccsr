@@ -17,18 +17,23 @@ featured:    true
 digital_media:
   - type: video
     src: /assets/videos/warping.mp4
+    poster: /assets/img/projects/fnua-warping-poster.jpg
     caption: Swaying under a desert Sun.
   - type: video
     src: /assets/videos/glass.mp4
+    poster: /assets/img/projects/fnua-glass-poster.jpg
     caption: Multiple pieces in a simple video.
   - type: video
     src: /assets/videos/ranch.mp4
+    poster: /assets/img/projects/fnua-ranch-poster.jpg
     caption: Ranch art.
   - type: video
     src: /assets/videos/typing.mp4
+    poster: /assets/img/projects/fnua-typing-poster.jpg
     caption: Message in paper tiles.
   - type: video
     src: /assets/videos/cowgirl.mp4
+    poster: /assets/img/projects/fnua-cowgirl-poster.jpg
     caption: A composite of things.
 brand_identity_media:
   - type: image
