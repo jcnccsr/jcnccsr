@@ -29,6 +29,7 @@ These are the notes I keep for myself while learning software development. I wri
 * [Basics]{:.heading.flip-title} --- C basics.
 * [Dynamic Memory][dynamic-memory]{:.heading.flip-title} --- Dynamically allocating memory in C.
 * [Strings]{:.heading.flip-title} --- C Strings.
+* [Structs]{:.heading.flip-title} --- C Structs.
 
 
 [setup]:          setup.md
@@ -41,3 +42,4 @@ These are the notes I keep for myself while learning software development. I wri
 [basics]:         basics.md
 [strings]:        strings.md
 [dynamic-memory]: dynamic-memory.md
+[structs]:        structs.md
