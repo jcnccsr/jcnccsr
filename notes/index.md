@@ -28,14 +28,16 @@ These are the notes I keep for myself while learning software development. I wri
 ## C
 * [Basics]{:.heading.flip-title} --- C basics.
 * [Dynamic Memory][dynamic-memory]{:.heading.flip-title} --- Dynamically allocating memory in C.
+* [Strings]{:.heading.flip-title} --- C Strings.
 
 
-[setup]:    setup.md
-[git]:      git.md
-[resetting-git]: resetting-git.md
-[web]:      web.md
-[css]:      css.md
-[box]:      box.md
-[flexbox]:  flexbox.md
-[basics]:   basics.md
+[setup]:          setup.md
+[git]:            git.md
+[resetting-git]:  resetting-git.md
+[web]:            web.md
+[css]:            css.md
+[box]:            box.md
+[flexbox]:        flexbox.md
+[basics]:         basics.md
+[strings]:        strings.md
 [dynamic-memory]: dynamic-memory.md
