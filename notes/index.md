@@ -12,17 +12,17 @@ These are the notes I keep for myself while learning software development. I wri
 
 
 ## Getting Started
-* [Setup]{:.heading.flip-title} --- Setting up the development environment.
-* [Git]{:.heading.flip-title} --- Setting up `git` and GitHub.
-* [Unix]{:.heading.flip-title} --- Linux basics.
-* [Bash]{:.heading.flip-title} --- Shell scripting basics.
+* [Setup][setup]{:.heading.flip-title} --- Setting up the development environment.
+* [Git][setting-git]{:.heading.flip-title} --- Setting up `git` and GitHub.
 
 ## Guides
-* [Resetting Git][resetting-git]{:.heading.flip-title} --- Resetting a git repository.
-* [Cursus][cursus]{:.heading.flip-title} --- Developing and pushing cursus to production.
+* [Unix][unix]{:.heading.flip-title} --- Linux basics.
+* [Bash][bash]{:.heading.flip-title} --- Shell scripting basics.
+* [Git][git]{:.heading.flip-title} --- Git basics. 
 * [SQLite][sqlite]{:.heading.flip-title} --- SQLite and SQLite basics.
 * [Server][server]{:.heading.flip-title} --- Setting up a web server.
 * [Node.js][node]{:.heading.flip-title} --- Node.js basics.
+* [Resetting Git][resetting-git]{:.heading.flip-title} --- Resetting a git repository.
 {:.related-posts.faded}
 
 ## Webdev
@@ -40,12 +40,14 @@ These are the notes I keep for myself while learning software development. I wri
 
 
 [setup]:          setup.md
+[setting-git]:    setting-git.md
 [unix]:           unix.md
+[bash]:           bash.md
 [git]:            git.md
-[resetting-git]:  resetting-git.md
-[cursus]:         cursus.md
 [sqlite]:         sqlite.md
 [server]:         server.md
+[node]:           node.md
+[resetting-git]:  resetting-git.md
 [web]:            web.md
 [css]:            css.md
 [box]:            box.md
