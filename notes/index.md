@@ -17,6 +17,7 @@ These are the notes I keep for myself while learning software development. I wri
 
 ## Guides
 * [Resetting Git][resetting-git]{:.heading.flip-title} --- Resetting a git repository.
+* [Cursus][cursus]{:.heading.flip-title} --- Developing and pushing cursus to production.
 {:.related-posts.faded}
 
 ## Webdev
@@ -35,6 +36,7 @@ These are the notes I keep for myself while learning software development. I wri
 [setup]:          setup.md
 [git]:            git.md
 [resetting-git]:  resetting-git.md
+[cursus]:         cursus.md
 [web]:            web.md
 [css]:            css.md
 [box]:            box.md
