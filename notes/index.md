@@ -14,10 +14,15 @@ These are the notes I keep for myself while learning software development. I wri
 ## Getting Started
 * [Setup]{:.heading.flip-title} --- Setting up the development environment.
 * [Git]{:.heading.flip-title} --- Setting up `git` and GitHub.
+* [Unix]{:.heading.flip-title} --- Linux basics.
+* [Bash]{:.heading.flip-title} --- Shell scripting basics.
 
 ## Guides
 * [Resetting Git][resetting-git]{:.heading.flip-title} --- Resetting a git repository.
 * [Cursus][cursus]{:.heading.flip-title} --- Developing and pushing cursus to production.
+* [SQLite][sqlite]{:.heading.flip-title} --- SQLite and SQLite basics.
+* [Server][server]{:.heading.flip-title} --- Setting up a web server.
+* [Node.js][node]{:.heading.flip-title} --- Node.js basics.
 {:.related-posts.faded}
 
 ## Webdev
@@ -25,6 +30,7 @@ These are the notes I keep for myself while learning software development. I wri
 * [CSS]{:.heading.flip-title} --- CSS Basics. 
 * [Box]{:.heading.flip-title} --- CSS box view, block and inline. 
 * [Flexbox]{:.heading.flip-title} --- Flexbox, growing, shrinking, and alignment. 
+* [JavaScript]{:.heading.flip-title} --- JavaScript basics. 
 
 ## C
 * [Basics]{:.heading.flip-title} --- C basics.
@@ -34,13 +40,17 @@ These are the notes I keep for myself while learning software development. I wri
 
 
 [setup]:          setup.md
+[unix]:           unix.md
 [git]:            git.md
 [resetting-git]:  resetting-git.md
 [cursus]:         cursus.md
+[sqlite]:         sqlite.md
+[server]:         server.md
 [web]:            web.md
 [css]:            css.md
 [box]:            box.md
 [flexbox]:        flexbox.md
+[javascript]:     js.md
 [basics]:         basics.md
 [strings]:        strings.md
 [dynamic-memory]: dynamic-memory.md
