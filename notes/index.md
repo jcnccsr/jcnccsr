@@ -18,6 +18,7 @@ These are the notes I keep for myself while learning software development. I wri
 ## Guides
 * [Unix][unix]{:.heading.flip-title} --- Linux basics.
 * [Bash][bash]{:.heading.flip-title} --- Shell scripting basics.
+* [nvim][nvim]{:.heading.flip-title} --- `nvim` basics.
 * [Git][git]{:.heading.flip-title} --- Git basics. 
 * [SQLite][sqlite]{:.heading.flip-title} --- SQLite and SQLite basics.
 * [Server][server]{:.heading.flip-title} --- Setting up a web server.
@@ -43,6 +44,7 @@ These are the notes I keep for myself while learning software development. I wri
 [setting-git]:    setting-git.md
 [unix]:           unix.md
 [bash]:           bash.md
+[nvim]:           nvim.md
 [git]:            git.md
 [sqlite]:         sqlite.md
 [server]:         server.md
