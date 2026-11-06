@@ -189,7 +189,7 @@ sudo apt install -y \
   curl \
   wget \
   git \
-  nano \
+  neovim \
   htop \
   ca-certificates \
   gnupg \
@@ -207,7 +207,7 @@ Before deploying applications, I configure a few basic security measures.
 I create a separate SSH configuration file:
 
 ```bash
-sudo nano /etc/ssh/sshd_config.d/99-hardening.conf
+sudo nvim /etc/ssh/sshd_config.d/99-hardening.conf
 ```
 
 I add:
@@ -412,7 +412,7 @@ cd ~/services/silverbullet
 Create a Docker Compose configuration:
 
 ```bash
-nano compose.yml
+nvim compose.yml
 ```
 
 Add:
