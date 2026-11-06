@@ -14,6 +14,7 @@ These are the notes I keep for myself while learning software development. I wri
 ## Getting Started
 * [Setup][setup]{:.heading.flip-title} --- Setting up the development environment.
 * [Git][setting-git]{:.heading.flip-title} --- Setting up `git` and GitHub.
+* [Rasperry Pi][pi]{:.heading.flip-title} --- Setting up Raspberry Pi as a server.
 
 ## Guides
 * [Unix][unix]{:.heading.flip-title} --- Linux basics.
@@ -43,6 +44,7 @@ These are the notes I keep for myself while learning software development. I wri
 [setup]:          setup.md
 [setting-git]:    setting-git.md
 [unix]:           unix.md
+[pi]:             pi.md
 [bash]:           bash.md
 [nvim]:           nvim.md
 [git]:            git.md
