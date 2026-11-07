@@ -5,6 +5,7 @@ description: >
   Notes I keep about Flexbox, sizing, axes, and alignment.
 hide_description: true
 sitemap: false
+tags: [webdev]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

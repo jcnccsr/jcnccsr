@@ -5,6 +5,7 @@ description: >
     Notes I keep for myself while learning JavaScript and building interactive web applications.
 hide_description: true
 sitemap: false
+tags: [webdev]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

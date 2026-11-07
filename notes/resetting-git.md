@@ -5,6 +5,7 @@ description: >
   Notes I keep for resetting a Git repository.
 hide_description: true
 sitemap: false
+tags: [guides]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list
@@ -60,4 +61,3 @@ I use this only when I intend to replace the remote branch history:
 ```bash
 git push --force origin main
 ```
-

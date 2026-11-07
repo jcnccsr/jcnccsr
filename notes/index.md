@@ -11,53 +11,14 @@ These are the notes I keep for myself while learning software development. I wri
 {:.note}
 
 
-## Getting Started
-* [Setup][setup]{:.heading.flip-title} --- Setting up the development environment.
-* [Git][setting-git]{:.heading.flip-title} --- Setting up `git` and GitHub.
-* [Rasperry Pi][pi]{:.heading.flip-title} --- Setting up Raspberry Pi as a server.
+## [Guides]({{ '/notes/guides/' | relative_url }})
+{% include notes/list.html category="guides" limit=5 %}
 
-## Guides
-* [Unix][unix]{:.heading.flip-title} --- Linux basics.
-* [Bash][bash]{:.heading.flip-title} --- Shell scripting basics.
-* [nvim][nvim]{:.heading.flip-title} --- `nvim` basics.
-* [Git][git]{:.heading.flip-title} --- Git basics. 
-* [SQLite][sqlite]{:.heading.flip-title} --- SQLite and SQLite basics.
-* [Server][server]{:.heading.flip-title} --- Setting up a web server.
-* [Node.js][node]{:.heading.flip-title} --- Node.js basics.
-* [Resetting Git][resetting-git]{:.heading.flip-title} --- Resetting a git repository.
-{:.related-posts.faded}
+## [Webdev]({{ '/notes/webdev/' | relative_url }})
+{% include notes/list.html category="webdev" limit=5 %}
 
-## Webdev
-* [Web]{:.heading.flip-title} --- Web development basics. 
-* [CSS]{:.heading.flip-title} --- CSS Basics. 
-* [Box]{:.heading.flip-title} --- CSS box view, block and inline. 
-* [Flexbox]{:.heading.flip-title} --- Flexbox, growing, shrinking, and alignment. 
-* [JavaScript]{:.heading.flip-title} --- JavaScript basics. 
+## [Programming]({{ '/notes/programming/' | relative_url }})
+{% include notes/list.html category="programming" limit=5 %}
 
-## C
-* [Basics]{:.heading.flip-title} --- C basics.
-* [Dynamic Memory][dynamic-memory]{:.heading.flip-title} --- Dynamically allocating memory in C.
-* [Strings]{:.heading.flip-title} --- C Strings.
-* [Structs]{:.heading.flip-title} --- C Structs.
-
-
-[setup]:          setup.md
-[setting-git]:    setting-git.md
-[unix]:           unix.md
-[pi]:             pi.md
-[bash]:           bash.md
-[nvim]:           nvim.md
-[git]:            git.md
-[sqlite]:         sqlite.md
-[server]:         server.md
-[node]:           node.md
-[resetting-git]:  resetting-git.md
-[web]:            web.md
-[css]:            css.md
-[box]:            box.md
-[flexbox]:        flexbox.md
-[javascript]:     js.md
-[basics]:         basics.md
-[strings]:        strings.md
-[dynamic-memory]: dynamic-memory.md
-[structs]:        structs.md
+## [Comsci]({{ '/notes/comsci/' | relative_url }})
+{% include notes/list.html category="comsci" limit=5 %}

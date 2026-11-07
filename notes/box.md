@@ -5,6 +5,7 @@ description: >
   Notes I keep about the CSS box model and block and inline displays.
 hide_description: true
 sitemap: false
+tags: [webdev]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

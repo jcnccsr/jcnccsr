@@ -1,0 +1,11 @@
+{% assign category_notes = site.pages | where_exp: "note", "note.path contains 'notes/' and note.tags contains include.category" | sort: "last_modified_at" | reverse %}
+{% if include.limit %}
+  {% assign category_notes = category_notes | slice: 0, include.limit %}
+{% endif %}
+<ul class="related-posts faded">
+  {% for note in category_notes %}
+    <li><a class="heading flip-title" href="{{ note.url | relative_url }}">{{ note.title | escape }}</a>{% if note.description %} --- {{ note.description | strip_newlines | escape }}{% endif %}</li>
+  {% else %}
+    <li>No notes in this category yet.</li>
+  {% endfor %}
+</ul>

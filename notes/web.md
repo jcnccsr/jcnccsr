@@ -5,6 +5,7 @@ description: >
   Notes I keep for myself about web development basics.
 hide_description: true
 sitemap: false
+tags: [webdev]
 ---
 
 I keep a few web development examples and reminders here as I learn.

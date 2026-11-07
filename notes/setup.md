@@ -5,6 +5,7 @@ description: >
   Notes I keep for setting up my development environment.
 hide_description: true
 sitemap: false
+tags: [guides]
 ---
 
 These are the setup steps and tools I tend to use. I keep them here so I can repeat the setup when I need to.
@@ -144,4 +145,3 @@ bundle exec jekyll serve
 [fdroid]: https://f-droid.org/en/
 [iterm2]: https://iterm2.com/ 
 [neovim]: https://neovim.io/doc/install/
-

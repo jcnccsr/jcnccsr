@@ -7,6 +7,7 @@ description: >
   everything securely through Cloudflare Tunnel.
 hide_description: true
 sitemap: false
+tags: [guides]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

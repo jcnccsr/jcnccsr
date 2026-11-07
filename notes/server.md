@@ -5,6 +5,7 @@ description: >
     Notes I keep for myself while learning to set up and administer a Raspberry Pi as a Linux server.
 hide_description: true
 sitemap: false
+tags: [guides]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

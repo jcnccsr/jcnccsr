@@ -5,6 +5,7 @@ description: >
     Notes about structures, members, and working with structs and pointers in C.
 hide_description: true
 sitemap: false
+tags: [programming]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

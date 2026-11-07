@@ -5,6 +5,7 @@ description: >
     Notes I keep for myself while learning the basics of C.
 hide_description: true
 sitemap: false
+tags: [programming]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list

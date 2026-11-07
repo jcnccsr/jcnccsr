@@ -79,6 +79,10 @@ copyright:             <span id="cp">©</span> <span id="year">2026</span>. All 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
 
+# Keep timestamps sortable in Liquid when ordering pages by last_modified_at.
+last-modified-at:
+  date-format:          "%Y-%m-%d %H:%M:%S"
+
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
 paginate_path:         /:num/

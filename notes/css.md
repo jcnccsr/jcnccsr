@@ -5,6 +5,7 @@ description: >
   Notes I keep for myself while learning CSS.
 hide_description: true
 sitemap: false
+tags: [webdev]
 ---
 
 0. this unordered seed list will be replaced by toc as unordered list
@@ -147,4 +148,3 @@ I should choose elements for their meaning, such as `<h1>` for a main heading an
 I think of HTML as providing structure and meaning, and CSS as controlling presentation.
 
 Source: [The Odin Project — Introduction to CSS](https://www.theodinproject.com/lessons/foundations-intro-to-css)
-

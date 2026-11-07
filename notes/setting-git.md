@@ -5,6 +5,7 @@ description: >
     Notes I keep for setting up Git and GitHub.
 hide_description: true
 sitemap: false
+tags: [guides]
 ---
 
 I keep these steps for setting up Git and GitHub. I learned them from [The Odin Project][odin].
